@@ -1,5 +1,26 @@
+section {
+    border: 1px solid transparent;
+}
+
+.info-1 {
+    background: url(./assets/task2-bg.jpeg);
+}
+
+.info-2 {
+    background: url(./assets/task2-bg1.jpeg);
+}
+
+.info-3 {
+    background: url(./assets/task2-bg2.jpg);
+}
+
 .info-1, .info-2, .info-3 {
     width: 30%;
     color: white;
     text-shadow: 1px 1px 1px black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 10px;
+    border-radius: 10px;
+    display: inline-block;
 }
